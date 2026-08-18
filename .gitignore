@@ -1,0 +1,9 @@
+# OS cruft
+.DS_Store
+
+# Personal photos - not meant for the public repo
+images/photos/*
+!images/photos/.gitkeep
+
+# Local backup of removed sections (see file for restore instructions)
+*.html.bak
