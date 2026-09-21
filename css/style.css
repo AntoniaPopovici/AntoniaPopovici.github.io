@@ -1135,6 +1135,32 @@ a.interest-tag:hover {
   z-index: 200;
 }
 
+.music-credit {
+  position: absolute;
+  bottom: calc(100% + 10px);
+  right: 0;
+  white-space: nowrap;
+  background: var(--color-card);
+  color: var(--color-text);
+  border: 2px solid var(--color-bordeaux);
+  box-shadow: var(--shadow-sm) var(--color-bordeaux);
+  padding: 0.5rem 0.75rem;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(4px);
+  transition: opacity 0.15s, transform 0.15s;
+}
+
+.music-widget:hover .music-credit {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
 .music-btn {
   width: 56px;
   height: 56px;
