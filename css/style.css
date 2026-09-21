@@ -1159,6 +1159,7 @@ a.interest-tag:hover {
   opacity: 1;
   pointer-events: auto;
   transform: translateY(0);
+  transition: opacity 0.15s ease 1.2s, transform 0.15s ease 1.2s;
 }
 
 .music-btn {
